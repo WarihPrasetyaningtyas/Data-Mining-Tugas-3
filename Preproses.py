@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 
 # 2. Membaca File CSV dengan Pemisah Titik Koma (;)
 # Gantilah 'data.csv' dengan nama file CSV-mu yang sebenarnya
-df = pd.read_csv('data.csv', sep=';')  # Tambahkan parameter sep=';' untuk membaca file yang menggunakan titik koma sebagai pemisah
+df = pd.read_csv('Data.csv', sep=';')  # Tambahkan parameter sep=';' untuk membaca file yang menggunakan titik koma sebagai pemisah
 
 # 3. Menampilkan Data Sebelum Preprocessing
 print("Data Sebelum Preprocessing:")
